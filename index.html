@@ -3,53 +3,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Muhammet ACAR / goit-js-hw-08</title>
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Normalize ve Lightbox Kütüphaneleri -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      rel="stylesheet"
     />
-
-    <!-- Özel CSS Dosyası -->
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="logo">Görsel Galeri</h1>
-      </div>
-    </header>
+    <ul class="gallery js-gallery"></ul>
 
-    <main>
-      <section class="gallery-section">
-        <div class="container">
-          <ul class="gallery"></ul>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <p>&copy; 2025 Muhammet ACAR | Copyright</p>
-      </div>
-    </footer>
-
-    <!-- Lightbox Script -->
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <script src="./js/gallery.js" type="module"></script>
   </body>
 </html>
